@@ -23,5 +23,5 @@ RUN useradd -m appuser && chown -R appuser:appuser /opt/app
 USER appuser
 
 # Set your default command
-CMD ["python", "-m", "your_module"]
+CMD ["python", "-m", "main"]
 
